@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/93407289/160191296-d66e8789-0bf9-4321-8a67-24c08ad733f8.png)
+
 # Code Challenge
 
 ## Given an already existing response from a MovieDatabase API Call:
