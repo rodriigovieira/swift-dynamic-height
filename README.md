@@ -9,7 +9,7 @@
 
 # Bonus points!
 
-1. Create an Alert for the possible errors of the request.
+1. Create an Alert for the possible errors of the whole flow.
 2. Add an activity indicator.
 3. Add pull to refresh.
 4. Use Decodable to parse the response into the MovieModel.
