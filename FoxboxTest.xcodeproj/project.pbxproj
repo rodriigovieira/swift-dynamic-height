@@ -14,10 +14,10 @@
 		A9A1E03A27EE1F8B004F169D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A1E03827EE1F8B004F169D /* LaunchScreen.storyboard */; };
 		A9A1E04227EE2C1F004F169D /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1E04127EE2C1F004F169D /* MovieViewModel.swift */; };
 		A9A1E04427EE2C2A004F169D /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1E04327EE2C2A004F169D /* MovieModel.swift */; };
-		D34F1E9F27F576BD00A6AC48 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F1E9E27F576BD00A6AC48 /* CustomTableViewCell.swift */; };
 		D34F1EA127F582DF00A6AC48 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F1EA027F582DF00A6AC48 /* Controller.swift */; };
 		D34F1EA527F58D4D00A6AC48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F1EA427F58D4D00A6AC48 /* ViewController.swift */; };
 		D34F1EA727F58DDF00A6AC48 /* CustomNewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F1EA627F58DDF00A6AC48 /* CustomNewTableViewCell.swift */; };
+		D34F1EAB27F5F1F800A6AC48 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F1EAA27F5F1F800A6AC48 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +31,11 @@
 		A9A1E04127EE2C1F004F169D /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		A9A1E04327EE2C2A004F169D /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		A9A1E04727EE2D86004F169D /* INSTRUCTIONS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = INSTRUCTIONS.md; sourceTree = "<group>"; };
-		D34F1E9E27F576BD00A6AC48 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = ../../../CustomTableViewCell.swift; sourceTree = "<group>"; };
 		D34F1EA027F582DF00A6AC48 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		D34F1EA427F58D4D00A6AC48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D34F1EA627F58DDF00A6AC48 /* CustomNewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNewTableViewCell.swift; sourceTree = "<group>"; };
 		D34F1EA927F58EEB00A6AC48 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		D34F1EAA27F5F1F800A6AC48 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +74,12 @@
 				A9A1E03127EE1F89004F169D /* RootViewController.swift */,
 				D34F1EA827F58EEB00A6AC48 /* SecondTableView */,
 				D34F1EA027F582DF00A6AC48 /* Controller.swift */,
-				D34F1E9E27F576BD00A6AC48 /* CustomTableViewCell.swift */,
 				A9A1E04127EE2C1F004F169D /* MovieViewModel.swift */,
 				A9A1E04327EE2C2A004F169D /* MovieModel.swift */,
 				A9A1E03627EE1F8B004F169D /* Assets.xcassets */,
 				A9A1E03827EE1F8B004F169D /* LaunchScreen.storyboard */,
 				A9A1E03B27EE1F8B004F169D /* Info.plist */,
+				D34F1EAA27F5F1F800A6AC48 /* CustomTableViewCell.swift */,
 			);
 			path = FoxboxTest;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D34F1E9F27F576BD00A6AC48 /* CustomTableViewCell.swift in Sources */,
+				D34F1EAB27F5F1F800A6AC48 /* CustomTableViewCell.swift in Sources */,
 				A9A1E03227EE1F89004F169D /* RootViewController.swift in Sources */,
 				A9A1E02E27EE1F89004F169D /* AppDelegate.swift in Sources */,
 				A9A1E04427EE2C2A004F169D /* MovieModel.swift in Sources */,
