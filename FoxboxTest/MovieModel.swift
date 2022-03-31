@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct Movie {
+struct MovieResults: Decodable {
+    let results: [MovieModel]
+}
+
+struct MovieModel: Decodable {
     let title: String
     let overview: String
 }
